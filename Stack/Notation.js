@@ -1,4 +1,5 @@
 function digitDivide(num, base) {
+	// 10을 넘어가는 진수 변환의 경우
 	const nums = '0123456789ABCDEF';
 	let result = '';
 	const stackBox = [];
